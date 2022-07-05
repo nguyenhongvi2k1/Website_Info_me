@@ -1,0 +1,101 @@
+/* Header */
+.nav{
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    flex-direction: row;
+    justify-content: end;
+    height: auto;
+    width: auto;
+}
+#nav{
+    margin-left: auto; 
+}
+.nav-item{
+    margin-right: 5%;
+    list-style: none;  
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#nav p{
+    text-transform: uppercase;
+    list-style: none;
+    color: #fff;
+}
+
+.name{
+    margin-right: auto;
+    color: #fff;
+}
+
+
+.footer{
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    @media (max-width: 1000px) {
+      padding: 70px 30px;
+    }
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* grid-gap: 20px;
+    justify-content: space-evenly; */
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.Heading{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.FooterLink{
+    color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+   
+}
+.FooterLink a:hover{
+    color: green;
+    transition: 200ms ease-in;
+}
+.Text{
+    font-size: 16px;
+    color: #fff;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-bottom:10px;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+.Row{
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+}
