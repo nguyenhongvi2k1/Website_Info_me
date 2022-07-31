@@ -1,5 +1,11 @@
 /* Header */
-.nav{
+#header {
+    top: 0;
+    width: 100%;
+    /* background: rgb(0, 64, 255); */
+}
+
+.nav {
     display: flex;
     margin-left: auto;
     list-style: none;
@@ -7,39 +13,45 @@
     justify-content: end;
     height: auto;
     width: auto;
+    top: 0;
 }
-#nav{
-    margin-left: auto; 
+
+#nav {
+    margin-left: auto;
 }
-.nav-item{
+
+.nav-item {
     margin-right: 5%;
-    list-style: none;  
+    list-style: none;
     text-decoration: none;
     margin-top: 10px;
 }
 
-#nav p{
+#nav p {
     text-transform: uppercase;
     list-style: none;
     color: #fff;
 }
 
-.name{
+.name {
     margin-right: auto;
     color: #fff;
+    margin-left: 3%;
 }
 
 
-.footer{
+.footer {
     background: black;
     position: absolute;
-    bottom: 0;
+    margin-bottom: 0;
     width: 100%;
+
     @media (max-width: 1000px) {
-      padding: 70px 30px;
+        padding: 70px 30px;
     }
 }
-.Container{
+
+.Container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,33 +61,38 @@
     justify-content: space-evenly; */
 }
 
-.Column{
+.Column {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.Heading{
+
+.Heading {
     font-size: 24px;
     color: #fff;
     margin-bottom: 20px;
     font-weight: bold;
 }
-.FooterLink{
+
+.FooterLink {
     color: #fff;
-  margin-bottom: 20px;
-  font-size: 18px;
-  text-decoration: none;
-   
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+
 }
-.FooterLink a:hover{
+
+.FooterLink a:hover {
     color: green;
     transition: 200ms ease-in;
 }
-.Text{
+
+.Text {
     font-size: 16px;
     color: #fff;
 }
-.Input{
+
+.Input {
     display: flex;
     flex-direction: column;
     font-family: inherit;
@@ -87,15 +104,45 @@
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.Form{
+.Form {
     display: flex;
     flex-direction: column;
 }
-.Row{
+
+.Row {
     display: flex;
     grid-gap: 20px;
     justify-content: space-evenly;
 }
+
+.btn-sent {
+    margin: auto;
+    background: rgb(31, 114, 248);
+    color: rgb(8, 8, 8);
+}
+/* /////-----------Selected---------------///// */
+  
+/* .nav-item {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .nav-links {
+    color: white;
+    /* text-decoration: none; */
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links:hover {
+    background-color: #e13a08;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+  
+  .fa-bars {
+    color: #fff;
+
+  }
