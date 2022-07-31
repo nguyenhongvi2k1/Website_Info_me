@@ -2,7 +2,6 @@ import { Component } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./style_pages.css"
-import img from '../assets/img/_MG_1474.jpeg';
 class Home extends Component {
     constructor(props) {
         super(props);
