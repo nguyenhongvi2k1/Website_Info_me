@@ -41,7 +41,7 @@ function Footer() {
               <p className="Heading">Project</p>
               <a className="FooterLink" href="#">Website Cinema</a>
               <a className="FooterLink" href="#">Website Travel</a>
-              <a className="FooterLink" href="#">Website </a>
+              <a className="FooterLink" href="#">Website Info_me</a>
             </div>
 
             <div className="Column">

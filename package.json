@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
+    "express": "^4.18.1",
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -44,15 +45,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nguyenhongvi2k1/Info_me.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nguyenhongvi2k1/Info_me/issues"
-  },
-  "homepage": "https://github.com/nguyenhongvi2k1/Info_me#readme"
+  "license": "ISC"
 }
