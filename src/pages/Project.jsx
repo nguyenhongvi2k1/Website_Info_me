@@ -25,8 +25,8 @@ class Project extends Component {
                         </div>
                         <div class="content">
                             <div class="text">
-                                <h1>Giải pháp quản lý công việc &amp; dự án toàn diện cho doanh nghiệp</h1>
-                                <h2>Nền tảng đầu tiên tại Việt Nam ứng dụng tinh hoa của các mô hình quản lý nổi tiếng trên thế giới để giải quyết bài toán điều hành công việc và dự án của doanh nghiệp</h2>
+                                <h1>title(map)</h1>
+                                <h2>detail(map)</h2>
                                 <div class="ctas">
                                     <div class="cta js-signup-cta -color url" data-url=":signup/-/wework" data-app="wework">Link git</div>
                                     <div class="more">Xem demo qua youtube</div>
